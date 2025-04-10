@@ -50,41 +50,6 @@
             "description": "Creates a new circle."
         },
         {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.6057692307692308,
-            "y": 0.18518518518518517,
-            "uniqueID": 1744322657911,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
-        },
-        {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.5340236686390533,
-            "y": 0.5586419753086419,
-            "uniqueID": 1744322740465,
-            "ioValues": [],
-            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.28624260355029585,
@@ -105,8 +70,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.34615384615384615,
-            "y": 0.6450617283950617,
+            "x": 0.4349112426035503,
+            "y": 0.6512345679012346,
             "uniqueID": 1744324035161,
             "ioValues": [
                 {
@@ -121,31 +86,19 @@
             "description": "Extrudes a 2D shape. Input can be negitive. "
         },
         {
-            "atomType": "Intersection",
-            "name": "Intersection",
-            "x": 0.4556213017751479,
-            "y": 0.39197530864197533,
-            "uniqueID": 1744324202183,
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.3468934911242604,
+            "y": 0.6512345679012346,
+            "uniqueID": 1744324550805,
             "ioValues": [
                 {
-                    "name": "geometry1",
-                    "ioValue": 1744322869361
-                },
-                {
-                    "name": "geometry2",
+                    "name": "geometry",
                     "ioValue": 1744324035161
                 }
             ],
-            "description": "The space shared by two shapes."
-        },
-        {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.3846153846153846,
-            "y": 0.3950617283950617,
-            "uniqueID": 1744324294671,
-            "ioValues": [],
-            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+            "description": "Changes the color of the shape.",
+            "selectedColorIndex": 2
         }
     ],
     "allConnectors": [
@@ -165,17 +118,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry1",
-            "ap2Primary": false,
-            "ap1ID": 1744322869361,
-            "ap2ID": 1744324202183
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry2",
-            "ap2Primary": false,
+            "ap2Name": "geometry",
+            "ap2Primary": true,
             "ap1ID": 1744324035161,
-            "ap2ID": 1744324202183
+            "ap2ID": 1744324550805
         }
     ],
     "unitsKey": "Inches",
