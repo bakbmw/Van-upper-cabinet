@@ -84,21 +84,6 @@
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
-        },
-        {
-            "atomType": "Color",
-            "name": "Color",
-            "x": 0.3468934911242604,
-            "y": 0.6512345679012346,
-            "uniqueID": 1744324550805,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1744324035161
-                }
-            ],
-            "description": "Changes the color of the shape.",
-            "selectedColorIndex": 2
         }
     ],
     "allConnectors": [
@@ -115,13 +100,6 @@
             "ap2Primary": true,
             "ap1ID": 1744322613010,
             "ap2ID": 1744324035161
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1744324035161,
-            "ap2ID": 1744324550805
         }
     ],
     "unitsKey": "Inches",
