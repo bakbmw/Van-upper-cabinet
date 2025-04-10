@@ -20,8 +20,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.1863905325443787,
-            "y": 0.38888888888888884,
+            "x": 0.11390532544378698,
+            "y": 0.4012345679012346,
             "uniqueID": 1744322544675,
             "ioValues": [
                 {
@@ -38,8 +38,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.1849112426035503,
-            "y": 0.632716049382716,
+            "x": 0.20931952662721892,
+            "y": 0.6574074074074074,
             "uniqueID": 1744322613010,
             "ioValues": [
                 {
@@ -101,6 +101,51 @@
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.34615384615384615,
+            "y": 0.6450617283950617,
+            "uniqueID": 1744324035161,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1744322613010
+                },
+                {
+                    "name": "height",
+                    "ioValue": 0.75
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Intersection",
+            "name": "Intersection",
+            "x": 0.4556213017751479,
+            "y": 0.39197530864197533,
+            "uniqueID": 1744324202183,
+            "ioValues": [
+                {
+                    "name": "geometry1",
+                    "ioValue": 1744322869361
+                },
+                {
+                    "name": "geometry2",
+                    "ioValue": 1744324035161
+                }
+            ],
+            "description": "The space shared by two shapes."
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.3846153846153846,
+            "y": 0.3950617283950617,
+            "uniqueID": 1744324294671,
+            "ioValues": [],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
         }
     ],
     "allConnectors": [
@@ -110,6 +155,27 @@
             "ap2Primary": true,
             "ap1ID": 1744322544675,
             "ap2ID": 1744322869361
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1744322613010,
+            "ap2ID": 1744324035161
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 1744322869361,
+            "ap2ID": 1744324202183
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 1744324035161,
+            "ap2ID": 1744324202183
         }
     ],
     "unitsKey": "Inches",
