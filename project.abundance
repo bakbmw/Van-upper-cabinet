@@ -36,24 +36,10 @@
             "description": "Creates a new rectangle."
         },
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.20931952662721892,
-            "y": 0.6574074074074074,
-            "uniqueID": 1744322613010,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Creates a new circle."
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.28624260355029585,
-            "y": 0.4104938271604938,
+            "x": 0.49408284023668636,
+            "y": 0.38888888888888884,
             "uniqueID": 1744322869361,
             "ioValues": [
                 {
@@ -68,22 +54,28 @@
             "description": "Extrudes a 2D shape. Input can be negitive. "
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.4349112426035503,
-            "y": 0.6512345679012346,
-            "uniqueID": 1744324035161,
-            "ioValues": [
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.4467455621301775,
+            "y": 0.7253086419753086,
+            "uniqueID": 1744325066527,
+            "ioValues": [],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
                 {
-                    "name": "geometry",
-                    "ioValue": 1744322613010
-                },
-                {
-                    "name": "height",
-                    "ioValue": 0.75
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1744325066548,
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
                 }
             ],
-            "description": "Extrudes a 2D shape. Input can be negitive. "
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
@@ -93,13 +85,6 @@
             "ap2Primary": true,
             "ap1ID": 1744322544675,
             "ap2ID": 1744322869361
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1744322613010,
-            "ap2ID": 1744324035161
         }
     ],
     "unitsKey": "Inches",
