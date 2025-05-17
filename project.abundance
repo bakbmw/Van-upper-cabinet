@@ -38,8 +38,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.49408284023668636,
-            "y": 0.38888888888888884,
+            "x": 0.49583333333333335,
+            "y": 0.3697674418604651,
             "uniqueID": 1744322869361,
             "ioValues": [
                 {
@@ -56,8 +56,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.4467455621301775,
-            "y": 0.7253086419753086,
+            "x": 0.4411458333333333,
+            "y": 0.7302325581395349,
             "uniqueID": 1744325066527,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
