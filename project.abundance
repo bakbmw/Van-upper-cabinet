@@ -77,13 +77,13 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": -1,
-                    "currentEquation": null
+                    "ioValue": 0,
+                    "currentEquation": "0"
                 },
                 {
                     "name": "zDist",
                     "ioValue": 0,
-                    "currentEquation": null
+                    "currentEquation": "0"
                 }
             ]
         },
@@ -101,13 +101,13 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": -1,
-                    "currentEquation": null
+                    "ioValue": 0,
+                    "currentEquation": "0"
                 },
                 {
                     "name": "zDist",
                     "ioValue": 0,
-                    "currentEquation": null
+                    "currentEquation": "0"
                 }
             ]
         },
@@ -125,13 +125,13 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": -1,
-                    "currentEquation": null
+                    "ioValue": 0,
+                    "currentEquation": "0"
                 },
                 {
                     "name": "zDist",
                     "ioValue": 0,
-                    "currentEquation": null
+                    "currentEquation": "0"
                 }
             ]
         },
@@ -149,13 +149,13 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": -1,
-                    "currentEquation": null
+                    "ioValue": 0,
+                    "currentEquation": "0"
                 },
                 {
                     "name": "zDist",
                     "ioValue": 0,
-                    "currentEquation": null
+                    "currentEquation": "0"
                 }
             ]
         },
@@ -196,7 +196,7 @@
                 {
                     "name": "Shape 2",
                     "ioValue": {
-                        "geometry": "move-fuse-fuse-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75--5-0-0-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-5-0-0--36--1-0",
+                        "geometry": "move-fuse-fuse-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75--5-0-0-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-5-0-0--36-0-0",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -223,7 +223,7 @@
                 {
                     "name": "Shape 3",
                     "ioValue": {
-                        "geometry": "move-fuse-fuse-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75--5-0-0-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-5-0-0--12--1-0",
+                        "geometry": "move-fuse-fuse-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75--5-0-0-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-5-0-0--12-0-0",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -250,7 +250,7 @@
                 {
                     "name": "Shape 4",
                     "ioValue": {
-                        "geometry": "move-fuse-fuse-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75--5-0-0-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-5-0-0-12--1-0",
+                        "geometry": "move-fuse-fuse-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75--5-0-0-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-5-0-0-12-0-0",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -277,7 +277,7 @@
                 {
                     "name": "Shape 5",
                     "ioValue": {
-                        "geometry": "move-fuse-fuse-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75--5-0-0-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-5-0-0-36--1-0",
+                        "geometry": "move-fuse-fuse-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75--5-0-0-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-5-0-0-36-0-0",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -1532,6 +1532,71 @@
                     ],
                     "fileTypeVersion": 1,
                     "compiledBom": []
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.4473958333333334,
+                    "y": 0.16976744186046513,
+                    "uniqueID": "e8c5bc54-7faa-4da1-8e63-ede27b49bd55",
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 0.8,
+                            "currentEquation": ".8"
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 3.125,
+                            "currentEquation": "3.125"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.6625,
+                    "y": 0.1744186046511628,
+                    "uniqueID": "093647e2-ee63-4f0e-80d1-522ac6c42dd7",
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -3,
+                            "currentEquation": "-3"
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0,
+                            "currentEquation": "0"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.8088541666666667,
+                    "y": 0.19534883720930235,
+                    "uniqueID": "5b347b06-4aa3-4748-aad5-e0211ea49e97",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.5473958333333334,
+                    "y": 0.16976744186046513,
+                    "uniqueID": "e5d6166d-4b15-4c76-8903-9f04c7808a18",
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 0.75,
+                            "currentEquation": ".75"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -1561,9 +1626,9 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
+                    "ap2Name": "geometry1",
                     "ap1ID": "5b212956-80b3-4db3-823b-a546a55aeef2",
-                    "ap2ID": "bdc86a05-51f6-41b2-ae07-e0e78c4307ad"
+                    "ap2ID": "5b347b06-4aa3-4748-aad5-e0211ea49e97"
                 },
                 {
                     "ap1Name": "geometry or number",
@@ -1576,6 +1641,30 @@
                     "ap2Name": "geometry",
                     "ap1ID": "bc1e6b3c-eea2-4cf5-96ca-b5c59ace0cf0",
                     "ap2ID": "4798ff89-fb2d-4818-859a-a33df36433cf"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": "e8c5bc54-7faa-4da1-8e63-ede27b49bd55",
+                    "ap2ID": "e5d6166d-4b15-4c76-8903-9f04c7808a18"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": "093647e2-ee63-4f0e-80d1-522ac6c42dd7",
+                    "ap2ID": "5b347b06-4aa3-4748-aad5-e0211ea49e97"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": "5b347b06-4aa3-4748-aad5-e0211ea49e97",
+                    "ap2ID": "bdc86a05-51f6-41b2-ae07-e0e78c4307ad"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": "e5d6166d-4b15-4c76-8903-9f04c7808a18",
+                    "ap2ID": "093647e2-ee63-4f0e-80d1-522ac6c42dd7"
                 }
             ],
             "fileTypeVersion": 1,
