@@ -1372,6 +1372,30 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.4963541666666667,
+            "y": 0.641860465116279,
+            "uniqueID": "978345d2-b113-4054-890c-0776e5260c79",
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": -12,
+                    "currentEquation": "-12"
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -1404,6 +1428,12 @@
             "ap2Name": "geometry",
             "ap1ID": "d715f707-a217-40db-8c5d-467edca132e3",
             "ap2ID": "986fe080-9156-4e0a-8da9-12fe6543bf3c"
+        },
+        {
+            "ap1Name": "geometry or number",
+            "ap2Name": "geometry",
+            "ap1ID": "0fc111eb-1970-4f90-bebf-b34bdc1566b8",
+            "ap2ID": "978345d2-b113-4054-890c-0776e5260c79"
         }
     ],
     "unitsKey": "Inches",
