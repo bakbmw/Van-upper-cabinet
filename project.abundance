@@ -73,8 +73,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.1,
-            "y": 0.3906976744186047,
+            "x": 0.4234375,
+            "y": 0.7674418604651163,
             "uniqueID": "3de57e11-8e35-4b19-934e-08b792fac554",
             "ioValues": [
                 {
@@ -92,14 +92,38 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.465625,
-            "y": 0.8395348837209302,
+            "x": 0.5328125,
+            "y": 0.7883720930232558,
             "uniqueID": "2a38d53b-5113-43d1-b821-9262035a0b31",
             "ioValues": [
                 {
                     "name": "height",
                     "ioValue": 0.75,
                     "currentEquation": ".75"
+                }
+            ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.5234375,
+            "y": 0.7674418604651163,
+            "uniqueID": "d3da86dd-c9be-4fd5-8891-5870847d9a77",
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": -60,
+                    "currentEquation": "-60"
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0,
+                    "currentEquation": "0"
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0,
+                    "currentEquation": null
                 }
             ]
         }
@@ -116,6 +140,12 @@
             "ap2Name": "geometry",
             "ap1ID": "3de57e11-8e35-4b19-934e-08b792fac554",
             "ap2ID": "2a38d53b-5113-43d1-b821-9262035a0b31"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "3de57e11-8e35-4b19-934e-08b792fac554",
+            "ap2ID": "d3da86dd-c9be-4fd5-8891-5870847d9a77"
         }
     ],
     "unitsKey": "Inches",
