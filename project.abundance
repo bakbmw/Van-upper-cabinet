@@ -69,6 +69,39 @@
             "allConnectors": [],
             "fileTypeVersion": 1,
             "compiledBom": {}
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.390625,
+            "y": 0.613953488372093,
+            "uniqueID": "465fec09-30e0-4351-9ecd-4c44bdc4bb48",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 20,
+                    "currentEquation": "20"
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10,
+                    "currentEquation": "10"
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.490625,
+            "y": 0.613953488372093,
+            "uniqueID": "b6f02d7c-ab21-424b-9987-2fe4f7d925ad",
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 0.75,
+                    "currentEquation": ".75"
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -77,6 +110,12 @@
             "ap2Name": "geometry",
             "ap1ID": 1744322544675,
             "ap2ID": 1744322869361
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "465fec09-30e0-4351-9ecd-4c44bdc4bb48",
+            "ap2ID": "b6f02d7c-ab21-424b-9987-2fe4f7d925ad"
         }
     ],
     "unitsKey": "Inches",
