@@ -449,6 +449,14 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.6880208333333333,
+            "y": 0.35581395348837214,
+            "uniqueID": "287065f7-f08e-42d3-87d9-8a9c5f6febdd",
+            "ioValues": []
         }
     ],
     "allConnectors": [
@@ -459,10 +467,28 @@
             "ap2ID": 1744322869361
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap1ID": 1744322869361,
+            "ap2ID": "287065f7-f08e-42d3-87d9-8a9c5f6febdd"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap1ID": "986fe080-9156-4e0a-8da9-12fe6543bf3c",
+            "ap2ID": "287065f7-f08e-42d3-87d9-8a9c5f6febdd"
+        },
+        {
             "ap1Name": "geometry or number",
             "ap2Name": "geometry",
             "ap1ID": "d715f707-a217-40db-8c5d-467edca132e3",
             "ap2ID": "986fe080-9156-4e0a-8da9-12fe6543bf3c"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap1ID": "287065f7-f08e-42d3-87d9-8a9c5f6febdd",
+            "ap2ID": 1744322470074
         }
     ],
     "unitsKey": "Inches",
