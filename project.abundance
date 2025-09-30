@@ -182,6 +182,93 @@
                     "currentEquation": ".75"
                 }
             ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.5802083333333333,
+            "y": 0.8302325581395349,
+            "uniqueID": "f1104fd4-6c31-4bd2-8260-12b10c7d5f46",
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": -40,
+                    "currentEquation": "-40"
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0,
+                    "currentEquation": "0"
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                }
+            ]
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.61875,
+            "y": 0.5720930232558139,
+            "uniqueID": "535b2c04-cb1f-47ea-b8b0-8055a4dafa38",
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": {
+                        "geometry": "move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75--40-0-0",
+                        "dimension": "3D",
+                        "tags": [],
+                        "plane": {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "xDir": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "normal": [
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": []
+                    }
+                },
+                {
+                    "name": "Shape 2",
+                    "ioValue": {
+                        "geometry": "move-extrude-rectangle-20-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75--30-0-0",
+                        "dimension": "3D",
+                        "plane": {
+                            "origin": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "xDir": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "normal": [
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        "color": "#aad7f2",
+                        "tags": [],
+                        "bom": []
+                    }
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -192,12 +279,6 @@
             "ap2ID": 1744322869361
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap1ID": 1744322869361,
-            "ap2ID": 1744322470074
-        },
-        {
             "ap1Name": "geometry or number",
             "ap2Name": "geometry",
             "ap1ID": "d715f707-a217-40db-8c5d-467edca132e3",
@@ -205,9 +286,33 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "Shape 2",
+            "ap1ID": "986fe080-9156-4e0a-8da9-12fe6543bf3c",
+            "ap2ID": "535b2c04-cb1f-47ea-b8b0-8055a4dafa38"
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap1ID": "957771c6-e705-4bf9-93ac-b24ceeaed361",
             "ap2ID": "7ae6bf2f-7fe0-4286-a41a-08bdffea5478"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "7ae6bf2f-7fe0-4286-a41a-08bdffea5478",
+            "ap2ID": "f1104fd4-6c31-4bd2-8260-12b10c7d5f46"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 1",
+            "ap1ID": "f1104fd4-6c31-4bd2-8260-12b10c7d5f46",
+            "ap2ID": "535b2c04-cb1f-47ea-b8b0-8055a4dafa38"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap1ID": "535b2c04-cb1f-47ea-b8b0-8055a4dafa38",
+            "ap2ID": 1744322470074
         }
     ],
     "unitsKey": "Inches",
