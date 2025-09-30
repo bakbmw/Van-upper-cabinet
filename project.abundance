@@ -97,7 +97,7 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Door",
+            "name": "Door 1",
             "x": 0.3979166666666667,
             "y": 0.6116279069767442,
             "uniqueID": "d715f707-a217-40db-8c5d-467edca132e3",
@@ -457,6 +457,28 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Molecule",
+            "name": "door 2",
+            "x": 0.3848958333333333,
+            "y": 0.8209302325581396,
+            "uniqueID": "0fc111eb-1970-4f90-bebf-b34bdc1566b8",
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "5c5faba2-a3ca-4fab-a8a3-c6a263456521",
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
