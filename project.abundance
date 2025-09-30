@@ -78,12 +78,12 @@
                 {
                     "name": "yDist",
                     "ioValue": -1,
-                    "currentEquation": "-1"
+                    "currentEquation": null
                 },
                 {
                     "name": "zDist",
                     "ioValue": 0,
-                    "currentEquation": "0"
+                    "currentEquation": null
                 }
             ]
         },
@@ -102,7 +102,7 @@
                 {
                     "name": "yDist",
                     "ioValue": -1,
-                    "currentEquation": "-1"
+                    "currentEquation": null
                 },
                 {
                     "name": "zDist",
@@ -126,7 +126,7 @@
                 {
                     "name": "yDist",
                     "ioValue": -1,
-                    "currentEquation": "-1"
+                    "currentEquation": null
                 },
                 {
                     "name": "zDist",
@@ -150,12 +150,12 @@
                 {
                     "name": "yDist",
                     "ioValue": -1,
-                    "currentEquation": "-1"
+                    "currentEquation": null
                 },
                 {
                     "name": "zDist",
                     "ioValue": 0,
-                    "currentEquation": "0"
+                    "currentEquation": null
                 }
             ]
         },
