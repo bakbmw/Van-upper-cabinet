@@ -31,7 +31,7 @@
                 {
                     "name": "x length",
                     "ioValue": 96,
-                    "currentEquation": "96"
+                    "currentEquation": null
                 },
                 {
                     "name": "y length",
@@ -55,10 +55,19 @@
             ]
         },
         {
+            "atomType": "Input",
+            "name": "Input (1)",
+            "x": 0.025384615384615384,
+            "y": 0.5,
+            "uniqueID": "193f63ca-5c18-4fe1-8832-4e4ffd280fc0",
+            "ioValues": [],
+            "type": "number"
+        },
+        {
             "atomType": "Molecule",
             "name": "Door",
-            "x": 0.3927083333333333,
-            "y": 0.5883720930232559,
+            "x": 0.3979166666666667,
+            "y": 0.6116279069767442,
             "uniqueID": "d715f707-a217-40db-8c5d-467edca132e3",
             "ioValues": [],
             "topLevel": false,
@@ -81,12 +90,12 @@
                         {
                             "name": "x length",
                             "ioValue": 20,
-                            "currentEquation": "20"
+                            "currentEquation": null
                         },
                         {
                             "name": "y length",
                             "ioValue": 10,
-                            "currentEquation": "10"
+                            "currentEquation": null
                         }
                     ]
                 },
@@ -100,30 +109,6 @@
                         {
                             "name": "height",
                             "ioValue": 0.75,
-                            "currentEquation": ".75"
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.5484375,
-                    "y": 0.713953488372093,
-                    "uniqueID": "e4600728-5397-4114-8fab-b7e9af7ccb46",
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": -30,
-                            "currentEquation": "-30"
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0,
-                            "currentEquation": "0"
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0,
                             "currentEquation": null
                         }
                     ]
@@ -138,14 +123,8 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": "f198ce1b-0579-4208-a03a-483a811b7bb3",
-                    "ap2ID": "e4600728-5397-4114-8fab-b7e9af7ccb46"
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": "e4600728-5397-4114-8fab-b7e9af7ccb46",
+                    "ap1ID": "f198ce1b-0579-4208-a03a-483a811b7bb3",
                     "ap2ID": "bdc86a05-51f6-41b2-ae07-e0e78c4307ad"
                 }
             ],
@@ -153,13 +132,56 @@
             "compiledBom": []
         },
         {
-            "atomType": "Input",
-            "name": "Input (1)",
-            "x": 0.025384615384615384,
-            "y": 0.5,
-            "uniqueID": "193f63ca-5c18-4fe1-8832-4e4ffd280fc0",
-            "ioValues": [],
-            "type": "number"
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.47864583333333327,
+            "y": 0.5813953488372093,
+            "uniqueID": "986fe080-9156-4e0a-8da9-12fe6543bf3c",
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": -30,
+                    "currentEquation": "-30"
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.41041666666666665,
+            "y": 0.8441860465116279,
+            "uniqueID": "957771c6-e705-4bf9-93ac-b24ceeaed361",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.48020833333333335,
+            "y": 0.8302325581395349,
+            "uniqueID": "7ae6bf2f-7fe0-4286-a41a-08bdffea5478",
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 0.75,
+                    "currentEquation": ".75"
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -168,10 +190,28 @@
             "ap2Name": "geometry",
             "ap1ID": 1744322544675,
             "ap2ID": 1744322869361
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap1ID": 1744322869361,
+            "ap2ID": 1744322470074
+        },
+        {
+            "ap1Name": "geometry or number",
+            "ap2Name": "geometry",
+            "ap1ID": "d715f707-a217-40db-8c5d-467edca132e3",
+            "ap2ID": "986fe080-9156-4e0a-8da9-12fe6543bf3c"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "957771c6-e705-4bf9-93ac-b24ceeaed361",
+            "ap2ID": "7ae6bf2f-7fe0-4286-a41a-08bdffea5478"
         }
     ],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [],
     "filetypeVersion": 1
 }
