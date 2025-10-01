@@ -4,13 +4,7 @@
     "x": 0,
     "y": 0,
     "uniqueID": 1744269494268,
-    "ioValues": [
-        {
-            "name": "Input (1)",
-            "ioValue": 10,
-            "currentEquation": null
-        }
-    ],
+    "ioValues": [],
     "topLevel": true,
     "allAtoms": [
         {
@@ -53,15 +47,6 @@
                     "currentEquation": null
                 }
             ]
-        },
-        {
-            "atomType": "Input",
-            "name": "Input (1)",
-            "x": 0.025384615384615384,
-            "y": 0.5,
-            "uniqueID": "193f63ca-5c18-4fe1-8832-4e4ffd280fc0",
-            "ioValues": [],
-            "type": "number"
         },
         {
             "atomType": "Move",
@@ -196,7 +181,7 @@
                 {
                     "name": "Shape 2",
                     "ioValue": {
-                        "geometry": "move-6fc1a66e2634cd5f146d563596d95d86929c3b31ac1acee72d55f0d14ece2c56",
+                        "geometry": "move-398eb8b2b7aceffe492148506bb9e94fcd1cb63c2acaa67404e654d67c2b923d",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -1506,7 +1491,7 @@
                     "atomType": "Rectangle",
                     "name": "Rectangle",
                     "x": 0.45572916666666663,
-                    "y": 0.472093023255814,
+                    "y": 0.47441860465116276,
                     "uniqueID": "5461382c-2f8b-4931-883d-846049b0c963",
                     "ioValues": [
                         {
@@ -1683,13 +1668,13 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 0.75,
-                            "currentEquation": null
+                            "ioValue": 1,
+                            "currentEquation": "1"
                         },
                         {
                             "name": "y length",
-                            "ioValue": 3.125,
-                            "currentEquation": null
+                            "ioValue": 3.375,
+                            "currentEquation": "3.375"
                         }
                     ]
                 },
@@ -1936,34 +1921,6 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
-        },
-        {
-            "atomType": "Export",
-            "name": "Export",
-            "x": 0.8072916666666666,
-            "y": 0.5069767441860465,
-            "uniqueID": "c44364be-aa72-4f83-ac46-31da08889f11",
-            "ioValues": [
-                {
-                    "name": "File Type",
-                    "ioValue": "STL",
-                    "currentEquation": null
-                },
-                {
-                    "name": "Resolution (dpi)",
-                    "ioValue": 96,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "Van-upper-cabinet",
-                    "currentEquation": null
-                }
-            ],
-            "type": "STL",
-            "resolution": 96,
-            "importIndex": 0,
-            "partName": "Van-upper-cabinet"
         }
     ],
     "allConnectors": [
@@ -2002,12 +1959,6 @@
             "ap2Name": "Shape 5",
             "ap1ID": "017bd8ce-f789-4865-9feb-0e5a8e690e58",
             "ap2ID": "080bb3ae-ecba-49f1-88c7-a73d5965ad0d"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap1ID": "080bb3ae-ecba-49f1-88c7-a73d5965ad0d",
-            "ap2ID": "c44364be-aa72-4f83-ac46-31da08889f11"
         },
         {
             "ap1Name": "geometry or number",
