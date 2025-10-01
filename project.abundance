@@ -208,7 +208,7 @@
                 {
                     "name": "Shape 3",
                     "ioValue": {
-                        "geometry": "move-b722f7b632b4c90806343d1612658ebe992051f69a1d24c8a739e72203e6cc1d",
+                        "geometry": "move-b6b0ff08fc1b656ea50c7409060967b0be4303ae8f8f2feace7b15079a09532b",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -235,7 +235,7 @@
                 {
                     "name": "Shape 4",
                     "ioValue": {
-                        "geometry": "move-3aa562fdca32651a65181bc89a3afd36486884cf1b886359bb61e0d2047e4f3e",
+                        "geometry": "move-48f50658f6a21f05ece616ed345cf229195972d1ca72116d31289ed156a52ab8",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -262,7 +262,7 @@
                 {
                     "name": "Shape 5",
                     "ioValue": {
-                        "geometry": "move-053415613a4401169bc3aef673038a446c6d8826f3866c907d4062d4a6d7d767",
+                        "geometry": "move-88fa1f2e3063df8d027decb3365c321283b12ee2bb9ec18586ca203c1e2d8c51",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -542,13 +542,13 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 0.75,
-                            "currentEquation": null
+                            "ioValue": 1,
+                            "currentEquation": "1"
                         },
                         {
                             "name": "y length",
-                            "ioValue": 3.125,
-                            "currentEquation": null
+                            "ioValue": 3.375,
+                            "currentEquation": "3.375"
                         }
                     ]
                 },
@@ -936,13 +936,13 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 0.75,
-                            "currentEquation": null
+                            "ioValue": 1,
+                            "currentEquation": "1"
                         },
                         {
                             "name": "y length",
-                            "ioValue": 3.125,
-                            "currentEquation": null
+                            "ioValue": 3.375,
+                            "currentEquation": "3.375"
                         }
                     ]
                 },
@@ -1330,13 +1330,13 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 0.75,
-                            "currentEquation": null
+                            "ioValue": 1,
+                            "currentEquation": "1"
                         },
                         {
                             "name": "y length",
-                            "ioValue": 3.125,
-                            "currentEquation": null
+                            "ioValue": 3.375,
+                            "currentEquation": "3.375"
                         }
                     ]
                 },
@@ -1921,6 +1921,42 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.7994791666666667,
+            "y": 0.4674418604651163,
+            "uniqueID": "1a888c07-63ee-4b07-bb46-a2af5b824163",
+            "ioValues": [
+                {
+                    "name": "Tool Size",
+                    "ioValue": 0.25,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 1,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 1500,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Van-upper-cabinet",
+                    "currentEquation": null
+                }
+            ],
+            "partName": "Van-upper-cabinet",
+            "sortDirection": "Left"
         }
     ],
     "allConnectors": [
@@ -1959,6 +1995,12 @@
             "ap2Name": "Shape 5",
             "ap1ID": "017bd8ce-f789-4865-9feb-0e5a8e690e58",
             "ap2ID": "080bb3ae-ecba-49f1-88c7-a73d5965ad0d"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "080bb3ae-ecba-49f1-88c7-a73d5965ad0d",
+            "ap2ID": "1a888c07-63ee-4b07-bb46-a2af5b824163"
         },
         {
             "ap1Name": "geometry or number",
