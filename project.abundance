@@ -217,35 +217,25 @@
       ]
     },
     {
-      "atomType": "Gcode",
-      "name": "Gcode",
-      "x": 0.7994791666666667,
-      "y": 0.4674418604651163,
-      "uniqueID": "1a888c07-63ee-4b07-bb46-a2af5b824163",
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.7530211480362538,
+      "y": 0.532394366197183,
+      "uniqueID": "8a0393c1-16d3-4eb3-829b-178f7130391e",
       "ioValues": [
         {
-          "name": "Tool Size",
-          "ioValue": 0.25
-        },
-        {
-          "name": "Passes",
-          "ioValue": 1
-        },
-        {
-          "name": "Speed",
-          "ioValue": 1500
-        },
-        {
-          "name": "Cut Through",
+          "name": "xDist",
           "ioValue": 0
         },
         {
-          "name": "Part Name",
-          "ioValue": "Van-upper-cabinet"
+          "name": "yDist",
+          "ioValue": -4
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
         }
-      ],
-      "partName": "Van-upper-cabinet",
-      "sortDirection": "Left"
+      ]
     },
     {
       "atomType": "Molecule",
@@ -290,8 +280,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 0.5,
-              "currentEquation": "0.5"
+              "ioValue": 0.5
             }
           ]
         },
@@ -317,8 +306,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 0.5,
-              "currentEquation": "0.5"
+              "ioValue": 0.5
             }
           ]
         },
@@ -344,8 +332,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 0.5,
-              "currentEquation": "0.5"
+              "ioValue": 0.5
             }
           ]
         },
@@ -508,8 +495,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 0.5,
-              "currentEquation": "0.5"
+              "ioValue": 0.5
             }
           ]
         },
@@ -695,8 +681,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 0.5,
-              "currentEquation": "0.5"
+              "ioValue": 0.5
             }
           ]
         },
@@ -709,8 +694,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 0.5,
-              "currentEquation": "0.5"
+              "ioValue": 0.5
             }
           ]
         },
@@ -723,8 +707,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 0.5,
-              "currentEquation": "0.5"
+              "ioValue": 0.5
             }
           ]
         },
@@ -887,8 +870,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 0.5,
-              "currentEquation": "0.5"
+              "ioValue": 0.5
             }
           ]
         },
@@ -1074,8 +1056,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 0.5,
-              "currentEquation": "0.5"
+              "ioValue": 0.5
             }
           ]
         },
@@ -1088,8 +1069,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 0.5,
-              "currentEquation": "0.5"
+              "ioValue": 0.5
             }
           ]
         },
@@ -1102,8 +1082,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 0.5,
-              "currentEquation": "0.5"
+              "ioValue": 0.5
             }
           ]
         },
@@ -1266,8 +1245,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 0.5,
-              "currentEquation": "0.5"
+              "ioValue": 0.5
             }
           ]
         },
@@ -1427,8 +1405,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 0.5,
-              "currentEquation": "0.5"
+              "ioValue": 0.5
             }
           ]
         },
@@ -1578,8 +1555,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 0.5,
-              "currentEquation": "0.5"
+              "ioValue": 0.5
             }
           ]
         },
@@ -1605,8 +1581,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 0.5,
-              "currentEquation": ".5"
+              "ioValue": 0.5
             }
           ]
         },
@@ -1632,8 +1607,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 0.5,
-              "currentEquation": ".5"
+              "ioValue": 0.5
             }
           ]
         },
@@ -1646,13 +1620,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 5,
-              "currentEquation": "5"
+              "ioValue": 5
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -1669,13 +1641,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -5,
-              "currentEquation": "-5"
+              "ioValue": -5
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -1768,27 +1738,35 @@
       "compiledBom": []
     },
     {
-      "atomType": "Move",
-      "name": "Move",
-      "x": 0.7061933534743202,
-      "y": 0.45352112676056344,
-      "uniqueID": "8a0393c1-16d3-4eb3-829b-178f7130391e",
+      "atomType": "Gcode",
+      "name": "Gcode",
+      "x": 0.7515105740181268,
+      "y": 0.5549295774647888,
+      "uniqueID": "c6254580-1135-4653-bcce-0b1eeb7dd59f",
       "ioValues": [
         {
-          "name": "xDist",
+          "name": "Tool Size",
+          "ioValue": 0.25
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
           "ioValue": 0
         },
         {
-          "name": "yDist",
-          "ioValue": -4,
-          "currentEquation": "-4"
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "name": "Part Name",
+          "ioValue": "Van-upper-cabinet"
         }
-      ]
+      ],
+      "partName": "Van-upper-cabinet",
+      "sortDirection": "Left"
     }
   ],
   "allConnectors": [
@@ -1820,13 +1798,13 @@
       "ap1Name": "geometry",
       "ap2Name": "geometry",
       "ap1ID": "080bb3ae-ecba-49f1-88c7-a73d5965ad0d",
-      "ap2ID": "1a888c07-63ee-4b07-bb46-a2af5b824163"
+      "ap2ID": "8a0393c1-16d3-4eb3-829b-178f7130391e"
     },
     {
       "ap1Name": "geometry",
       "ap2Name": "geometry",
-      "ap1ID": "080bb3ae-ecba-49f1-88c7-a73d5965ad0d",
-      "ap2ID": "8a0393c1-16d3-4eb3-829b-178f7130391e"
+      "ap1ID": "8a0393c1-16d3-4eb3-829b-178f7130391e",
+      "ap2ID": "c6254580-1135-4653-bcce-0b1eeb7dd59f"
     },
     {
       "ap1Name": "geometry or number",
