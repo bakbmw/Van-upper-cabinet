@@ -24,7 +24,8 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": -36
+          "ioValue": -12,
+          "currentEquation": "-12"
         },
         {
           "name": "yDist",
@@ -33,8 +34,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
@@ -56,8 +56,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
@@ -79,8 +78,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
@@ -97,13 +95,11 @@
         },
         {
           "name": "yDist",
-          "ioValue": -4,
-          "currentEquation": "-4"
+          "ioValue": -4
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
@@ -117,7 +113,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-cut-fuse-fuse-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.5-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.5-5-0-0-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.5--5-0-0-move-extrude-rectangle-1-3.375-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.5-0--3-0--36--4-0",
+            "geometry": "move-cut-fuse-fuse-extrude-rectangle-10-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.5-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.5-5-0-0-move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.5--5-0-0-move-extrude-rectangle-1-3.375-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.5-0--3-0--12--4-0",
             "tags": [],
             "bom": [],
             "plane": {
@@ -244,6 +240,68 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Gcode",
+      "name": "Gcode",
+      "x": 0.8783987915407855,
+      "y": 0.5102040816326531,
+      "uniqueID": "c6254580-1135-4653-bcce-0b1eeb7dd59f",
+      "ioValues": [
+        {
+          "name": "Tool Size",
+          "ioValue": 0.25
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Van-upper-cabinet"
+        }
+      ],
+      "partName": "Van-upper-cabinet",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "Gcode",
+      "name": "Gcode",
+      "x": 0.5490936555891239,
+      "y": 0.2536443148688047,
+      "uniqueID": "e8121f3d-60d6-48a4-9d66-ce9a8c42c99d",
+      "ioValues": [
+        {
+          "name": "Tool Size",
+          "ioValue": 0.25
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Van-upper-cabinet Door 1"
+        }
+      ],
+      "partName": "Van-upper-cabinet",
+      "sortDirection": "Left"
     },
     {
       "atomType": "Molecule",
@@ -1744,68 +1802,6 @@
       ],
       "fileTypeVersion": 1,
       "compiledBom": []
-    },
-    {
-      "atomType": "Gcode",
-      "name": "Gcode",
-      "x": 0.8783987915407855,
-      "y": 0.5102040816326531,
-      "uniqueID": "c6254580-1135-4653-bcce-0b1eeb7dd59f",
-      "ioValues": [
-        {
-          "name": "Tool Size",
-          "ioValue": 0.25
-        },
-        {
-          "name": "Passes",
-          "ioValue": 1
-        },
-        {
-          "name": "Speed",
-          "ioValue": 1500
-        },
-        {
-          "name": "Cut Through",
-          "ioValue": 0
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Van-upper-cabinet"
-        }
-      ],
-      "partName": "Van-upper-cabinet",
-      "sortDirection": "Left"
-    },
-    {
-      "atomType": "Gcode",
-      "name": "Gcode",
-      "x": 0.5490936555891239,
-      "y": 0.2536443148688047,
-      "uniqueID": "e8121f3d-60d6-48a4-9d66-ce9a8c42c99d",
-      "ioValues": [
-        {
-          "name": "Tool Size",
-          "ioValue": 0.25
-        },
-        {
-          "name": "Passes",
-          "ioValue": 1
-        },
-        {
-          "name": "Speed",
-          "ioValue": 1500
-        },
-        {
-          "name": "Cut Through",
-          "ioValue": 0
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Van-upper-cabinet Door 1"
-        }
-      ],
-      "partName": "Van-upper-cabinet",
-      "sortDirection": "Left"
     }
   ],
   "allConnectors": [
@@ -1852,6 +1848,12 @@
       "ap2ID": "c6254580-1135-4653-bcce-0b1eeb7dd59f"
     },
     {
+      "ap1Name": "output",
+      "ap2Name": "number or geometry",
+      "ap1ID": "c6254580-1135-4653-bcce-0b1eeb7dd59f",
+      "ap2ID": 1744322470074
+    },
+    {
       "ap1Name": "geometry or number",
       "ap2Name": "geometry",
       "ap1ID": "0fc111eb-1970-4f90-bebf-b34bdc1566b8",
@@ -1874,12 +1876,6 @@
       "ap2Name": "geometry",
       "ap1ID": "d715f707-a217-40db-8c5d-467edca132e3",
       "ap2ID": "986fe080-9156-4e0a-8da9-12fe6543bf3c"
-    },
-    {
-      "ap1Name": "output",
-      "ap2Name": "number or geometry",
-      "ap1ID": "c6254580-1135-4653-bcce-0b1eeb7dd59f",
-      "ap2ID": 1744322470074
     }
   ],
   "unitsKey": "Inches",
