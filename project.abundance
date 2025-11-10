@@ -1802,6 +1802,30 @@
       ],
       "fileTypeVersion": 1,
       "compiledBom": []
+    },
+    {
+      "atomType": "Rotate",
+      "name": "Rotate",
+      "x": 0.47734138972809664,
+      "y": 0.29737609329446063,
+      "uniqueID": "id-245",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 90,
+          "currentEquation": "90"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -1816,6 +1840,12 @@
       "ap2Name": "geometry",
       "ap1ID": "986fe080-9156-4e0a-8da9-12fe6543bf3c",
       "ap2ID": "e8121f3d-60d6-48a4-9d66-ce9a8c42c99d"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "986fe080-9156-4e0a-8da9-12fe6543bf3c",
+      "ap2ID": "id-245"
     },
     {
       "ap1Name": "geometry",
